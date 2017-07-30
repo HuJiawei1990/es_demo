@@ -1,0 +1,24 @@
+[2017-07_27 11:15:58] es_server.py[line:65] INFO ********************************************************************************
+[2017-07_27 11:15:58] es_server.py[line:66] INFO Loading index 'sdf' from server 172.31.18.33
+[2017-07_27 11:15:58] base.py[line:83] INFO GET http://172.31.18.33:9200/sdf/_search?size=0 [status:200 request:0.075s]
+[2017-07_27 11:15:58] es_server.py[line:79] INFO There are 1236 samples in index 'sdf'.
+[2017-07_27 11:15:58] es_server.py[line:90] INFO load first 1000 samples into pandas dataframe.
+[2017-07_27 11:15:58] es_server.py[line:92] INFO --------------------------------------------------------------------------------
+[2017-07_27 11:15:58] es_server.py[line:93] INFO Loading process begins...
+[2017-07_27 11:15:59] base.py[line:83] INFO GET http://172.31.18.33:9200/sdf/_search?size=1000 [status:200 request:0.203s]
+[2017-07_27 11:15:59] es_server.py[line:144] INFO --------------------------------------------------------------------------------
+[2017-07_27 11:15:59] es_server.py[line:145] INFO Loading process ends...
+[2017-07_27 11:15:59] es_server.py[line:146] INFO 1000 samples loaded in dataframe.
+[2017-07_27 11:15:59] es_server.py[line:147] INFO Loading process takes 0:00:00.728495
+[2017-07_27 11:17:20]	es_server.py[line:65]	INFO	********************************************************************************
+[2017-07_27 11:17:20]	es_server.py[line:66]	INFO	Loading index 'sdf' from server 172.31.18.33
+[2017-07_27 11:17:20]	base.py[line:83]	INFO	GET http://172.31.18.33:9200/sdf/_search?size=0 [status:200 request:0.012s]
+[2017-07_27 11:17:20]	es_server.py[line:79]	INFO	There are 1236 samples in index 'sdf'.
+[2017-07_27 11:17:20]	es_server.py[line:90]	INFO	load first 1000 samples into pandas dataframe.
+[2017-07_27 11:17:20]	es_server.py[line:92]	INFO	--------------------------------------------------------------------------------
+[2017-07_27 11:17:20]	es_server.py[line:93]	INFO	Loading process begins...
+[2017-07_27 11:17:21]	base.py[line:83]	INFO	GET http://172.31.18.33:9200/sdf/_search?size=1000 [status:200 request:0.199s]
+[2017-07_27 11:17:21]	es_server.py[line:144]	INFO	--------------------------------------------------------------------------------
+[2017-07_27 11:17:21]	es_server.py[line:145]	INFO	Loading process ends...
+[2017-07_27 11:17:21]	es_server.py[line:146]	INFO	1000 samples loaded in dataframe.
+[2017-07_27 11:17:21]	es_server.py[line:147]	INFO	Loading process takes 0:00:00.332222
